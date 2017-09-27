@@ -1,0 +1,41 @@
+h1{
+    margin: 0px;
+    padding:  20px 0;
+    font-size: 60px;
+    color:  #03213B;
+    text-align: center;
+    
+    
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+#list{
+    color: #2C45D1;
+    width: 250px;
+    
+}
+
+a:hover{
+    color: #DF1616; 
+}
+
+li{
+    font-size: 20px;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #D3CABD;
+    padding: 0 20px 20px 20px;
+    border: 1px  solid #000000;
+}
