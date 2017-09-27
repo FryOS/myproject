@@ -7,7 +7,7 @@ myImg.onclick = function () {
     } else {
         myImg.setAttribute('src', 'images/firefox_icon.png')
     }
-    
+    alert('Вы нажали кнопку');
 }
 
 var myButton = document.querySelector('button');
