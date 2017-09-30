@@ -1,45 +1,88 @@
-h1{
-    margin: 0px;
-    padding:  20px 0;
-    font-size: 60px;
-    color:  #03213B;
-    text-align: center;
-    
-    
+@charset "UTF-8"
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
-img{
-    display: block;
-    margin: 0 auto;
-}
-
-p, li{
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: #f7f7f7;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
 }
 
-#list{
-    color: #2C45D1;
-    width: 250px;
-    
+header, footer {
+    width: 98%;
+    background-color: #fff;
+    min-height: 50px;
+}
+
+a{
+    color: 8bf592;
+    text-decoration: none;
+    -webkit-transition: all.6s easy;
+    -moz-transition: all.6s easy;
+    transition: all.6s easy;
 }
 
 a:hover{
-    color: #DF1616; 
+    color: #0616ff;
+    text-decoration: none;
+    -webkit-transition: all.6s easy;
+    -moz-transition: all.6s easy;
+    transition: all.6s easy;
+}
+a:active {
+    color: #e60505;
+}
+/*стили выделене*/
+
+::selection {background: #e24a4a ; color: #fff}
+::-moz-selection {background: #e24a4a; color: #fff}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+img{
+    max-width: 100%;
+    height: auti;
+    width: auto\9;
+}
+#logo{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, sans-serif;
+    font-size: 2em;
+}
+#contact {
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin-left: 20px;
+}
+input[type=text].field{
+    border-radius:  5px;  
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+    outline:none;
+
+}
+input[type=text].field.focus{
+    border: 2px solid rgb(255, 71, 71);
 }
 
-li{
-    font-size: 20px;
+header{
+    border-bottom: 2px solid silver;
+    padding: 1%;
+
 }
 
-body{
-    width: 600px;
-    margin: 0 auto;
-    background-color: #D3CABD;
-    padding: 0 20px 20px 20px;
-    
-}
-
-button {
-    padding: 10px 10px 10px 0;
+footer{
+    border-top: 2px solid silver;
+    margin-top: 10pc;
+    padding: 1%;
 }
